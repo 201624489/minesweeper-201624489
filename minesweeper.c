@@ -126,7 +126,7 @@ int main(int argc, char *argv[]){
 new_game:
 	// the number of mines
 	nMines = 10;
-	if(argc == 2) {
+	if(argc == 2) { // mode selection
 		nMines = atoi(argv[1]);
 	}
 	srand (time(NULL));						// random seed
